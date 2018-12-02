@@ -1,11 +1,16 @@
 body {
-  font-family: sans-serif;
+  text-align: center;
 }
 
 #title {
   text-align: center;
 }
 
-#chart {
-  border: 2px solid black;
+.bar:hover {
+  fill: aqua;
+}
+
+#bar-area {
+  text-align: center;
+  padding: 20px;
 }
