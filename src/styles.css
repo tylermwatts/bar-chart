@@ -10,7 +10,33 @@ body {
   fill: aqua;
 }
 
-#bar-area {
-  text-align: center;
-  padding: 20px;
+#chart {
+  margin: auto;
+  width: 1100px;
+  border: 1px solid black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip 
+{	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: auto;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lavender;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.bar:hover
+{
+  fill: aqua;
 }
